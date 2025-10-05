@@ -1,0 +1,17 @@
+*
+
+!.gitignore
+!hypr/
+!hyprlock/
+!waybar/
+!nvim/
+!wezterm/
+!kitty/
+!ags/
+!fastfetch/
+!rofi/
+!qt6ct/
+!qt5ct/
+!wallust/
+!swaync/
+
