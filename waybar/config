@@ -1,1 +1,44 @@
-configs/[TOP] 0-Ja-0
+{
+"include": [
+  "$HOME/.config/waybar/Modules",
+  "$HOME/.config/waybar/ModulesWorkspaces",
+  "$HOME/.config/waybar/ModulesCustom",
+  "$HOME/.config/waybar/ModulesGroups",
+  "$HOME/.config/waybar/UserModules",
+  ],
+"layer": "top",
+//"mode": "dock",
+"exclusive": true,
+"passthrough": false,
+"position": "top",
+"spacing": 3,
+"fixed-center": true,
+"ipc": true,
+"margin-top": 3,
+"margin-left": 8,
+"margin-right": 8,
+
+"modules-right" : [
+  "group/mobo_drawer",
+  "network#speed",
+  "group/audio",
+  "clock#2",
+  "group/laptop",
+],
+
+"modules-center": [
+	"group/app_drawer",
+	"custom/separator#dot-line",
+	"hyprland/workspaces#rw",
+	"custom/separator#dot-line",
+  "custom/swaync",
+],
+
+"modules-left": [
+  "tray",
+  "custom/cava_mviz",
+  "custom/playerctl",
+  "custom/cycle_wall",
+],
+
+}

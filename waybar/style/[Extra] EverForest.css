@@ -29,7 +29,7 @@
 @define-color grey2       #9DA9A0;
 
 * {
-  font-family: "JetBrainsMono Nerd Font";
+  font-family: 'JetBrainsMono Nerd Font';
   font-weight: bold;
   min-height: 0;
   /* set font-size to 100% if font scaling is set to 1.00 using nwg-look */
@@ -50,7 +50,7 @@ window#waybar {
 }
 
 window#waybar.hidden {
-	opacity: 0.5;
+  opacity: 0.5;
 }
 
 #window {
@@ -174,7 +174,7 @@ window#waybar.hidden {
   background-color: @red;
   color: @fg;
   animation-name: blink;
-  animation-duration: 3.0s;
+  animation-duration: 3s;
   animation-timing-function: steps(12);
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -240,27 +240,27 @@ window#waybar.hidden {
 
 #backlight-slider slider,
 #pulseaudio-slider slider {
-    min-width: 0px;
-    min-height: 0px;
-    opacity: 0;
-    background-image: none;
-    border: none;
-    box-shadow: none;
+  min-width: 0px;
+  min-height: 0px;
+  opacity: 0;
+  background-image: none;
+  border: none;
+  box-shadow: none;
 }
 
 #backlight-slider trough,
 #pulseaudio-slider trough {
-    min-width: 80px;
-    min-height: 5px;
-    border-radius: 5px;
-    background-color: #22252a;
+  min-width: 80px;
+  min-height: 5px;
+  border-radius: 5px;
+  background-color: #22252a;
 }
 
 #backlight-slider highlight,
 #pulseaudio-slider highlight {
-    min-height: 10px;
-    border-radius: 5px;
-    background-color: #ba5663;
+  min-height: 10px;
+  border-radius: 5px;
+  background-color: #ba5663;
 }
 
 #backlight,
@@ -313,13 +313,15 @@ window#waybar.hidden {
 #custom-weather.clearNight,
 #custom-weather.cloudyFoggyDay,
 #custom-weather.cloudyFoggyNight,
-#custom-weather.default, 
+#custom-weather.default,
 #custom-weather.rainyDay,
 #custom-weather.rainyNight,
 #custom-weather.severe,
 #custom-weather.showyIcyDay,
 #custom-weather.snowyIcyNight,
 #custom-weather.sunnyDay {
-	padding-right: 5px;
-	padding-left: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
+@import './user-style.css';
+

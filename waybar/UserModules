@@ -7,4 +7,9 @@
 
 {
 
+"user/clock": {
+  "interval": 20,
+  "format": "{text}",
+  "exec": "~/.config/hypr/scripts/WaybarClock.sh",
+} 
 }
