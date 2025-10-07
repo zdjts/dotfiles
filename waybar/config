@@ -32,6 +32,7 @@
 	"hyprland/workspaces#rw",
 	"custom/separator#dot-line",
   "custom/swaync",
+  "custom/worktimer",
 ],
 
 "modules-left": [

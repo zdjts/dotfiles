@@ -7,9 +7,15 @@
 
 {
 
-"user/clock": {
+"custom/clock": {
   "interval": 20,
   "format": "{text}",
-  "exec": "~/.config/hypr/scripts/WaybarClock.sh",
-} 
+  "exec": "$HOME/.config/hypr/scripts/WaybarClock.sh",
+}, 
+"custom/worktimer": {
+    "format": "💻 {}", 
+    "exec": "$HOME/.config/hypr/scripts/WaybarUpTime.sh",
+    "interval": 1,
+    "tooltip": true,
+},
 }
